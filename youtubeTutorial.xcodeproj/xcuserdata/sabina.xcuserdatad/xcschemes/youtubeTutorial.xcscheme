@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C241598F1D7C7E86005063E5"
+               BuildableName = "youtubeTutorial.app"
+               BlueprintName = "youtubeTutorial"
+               ReferencedContainer = "container:youtubeTutorial.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C24159A31D7C7E87005063E5"
+               BuildableName = "youtubeTutorialTests.xctest"
+               BlueprintName = "youtubeTutorialTests"
+               ReferencedContainer = "container:youtubeTutorial.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C24159AE1D7C7E87005063E5"
+               BuildableName = "youtubeTutorialUITests.xctest"
+               BlueprintName = "youtubeTutorialUITests"
+               ReferencedContainer = "container:youtubeTutorial.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C241598F1D7C7E86005063E5"
+            BuildableName = "youtubeTutorial.app"
+            BlueprintName = "youtubeTutorial"
+            ReferencedContainer = "container:youtubeTutorial.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C241598F1D7C7E86005063E5"
+            BuildableName = "youtubeTutorial.app"
+            BlueprintName = "youtubeTutorial"
+            ReferencedContainer = "container:youtubeTutorial.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C241598F1D7C7E86005063E5"
+            BuildableName = "youtubeTutorial.app"
+            BlueprintName = "youtubeTutorial"
+            ReferencedContainer = "container:youtubeTutorial.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
