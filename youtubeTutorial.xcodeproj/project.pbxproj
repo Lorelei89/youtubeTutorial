@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C21584651D8F0431004F628D /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21584641D8F0431004F628D /* Video.swift */; };
+		C21584671D8F0962004F628D /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21584661D8F0962004F628D /* Channel.swift */; };
 		C24159941D7C7E86005063E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24159931D7C7E86005063E5 /* AppDelegate.swift */; };
 		C24159961D7C7E86005063E5 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24159951D7C7E86005063E5 /* HomeController.swift */; };
 		C24159991D7C7E86005063E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C24159971D7C7E86005063E5 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		C21584641D8F0431004F628D /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		C21584661D8F0962004F628D /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		C24159901D7C7E86005063E5 /* youtubeTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = youtubeTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C24159931D7C7E86005063E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C24159951D7C7E86005063E5 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeController.swift; path = youtubeTutorial/HomeController.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				C21584641D8F0431004F628D /* Video.swift */,
+				C21584661D8F0962004F628D /* Channel.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C21584671D8F0962004F628D /* Channel.swift in Sources */,
 				C24159961D7C7E86005063E5 /* HomeController.swift in Sources */,
 				C21584651D8F0431004F628D /* Video.swift in Sources */,
 				C24159C61D7CB075005063E5 /* VideoCell.swift in Sources */,
